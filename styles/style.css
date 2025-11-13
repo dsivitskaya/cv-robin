@@ -264,11 +264,6 @@ ol {
   gap: 24px;
   padding: 120px 72px;
 }
-.skillset__list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 24px;
-}
 .skillset__subtitle {
   margin-bottom: 24px;
   color: var(--title-color);
@@ -277,6 +272,11 @@ ol {
 }
 .skillset__description {
   color: var(--grey-dark-color);
+}
+.skillset__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
 }
 .skill-card__title {
   margin-top: 12px;
@@ -366,3 +366,52 @@ ol {
 .response__prof {
   color: var(--grey-dark-color);
 }
+/*gallery*/
+.gallery {
+  padding: 120px 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 40px;
+}
+.gallery__text {
+  max-width: 588px;
+}
+.gallery__subtitle {
+  margin-bottom: 24px;
+  color: var(--title-color);
+  font-weight: 700;
+  font-size: 55px;
+}
+.gallery__description {
+  padding-bottom: 24px;
+}
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+.gallery__form {
+  display: flex;
+  justify-content: start;
+  gap: 24px;
+}
+.radio__label {
+  padding: 12px 16px;
+border: 1px solid var(--primary-color);
+color: var(--title-color);
+text-transform: uppercase;
+}
+.radio__label:has(.radio__box:checked) {
+  background-color: var(--primary-color);
+}
+.gallery__italy {
+  display: grid;
+  grid-template-columns: repeat(4, 306px);
+  gap: 24px;
+}
+
