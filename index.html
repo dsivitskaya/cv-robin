@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CV Robin</title>
   <link rel="stylesheet" href="./fonts/fonts.css" />
+  <link rel="stylesheet" href="./styles/globals.css" />
+  <link rel="stylesheet" href="./styles/variables.css" />
   <link rel="stylesheet" href="./styles/style.css" />
 </head>
 
@@ -26,7 +28,7 @@
         <li class="header__menu-list-item">
           <a href="" class="header__menu-link">Photography</a>
         </li>
-        <li class="header__menu-list-item">
+        <li class="header__menu-list-item header__menu-list-item_active">
           <a href="" class="header__menu-link header__menu-link_active">Contact</a>
         </li>
       </ul>
@@ -50,7 +52,7 @@
     <section class="work">
       <div class="work__text">
         <h2 class="work__title">Work experience</h2>
-        <h3 class="work__subtitle subtitle">Companies I have worked
+        <h3 class="work__subtitle section__subtitle">Companies I have worked
           for in the past</h3>
       </div>
       <ul class="work__list">
@@ -85,7 +87,7 @@
     </section>
     <section class="value__unit unit">
       <div class="unit__text">
-        <h3 class="unit__subtitle subtitle">Philosophy & values</h3>
+        <h3 class="unit__subtitle section__subtitle">Philosophy & values</h3>
         <p class="unit__description">I think everyone wants the same thing - relationship with humanity, peace
           with the metaphysical, and experience with the universe. I try to grasp these things with my values:
           authenticity, creativity, & hospitality.</p>
@@ -95,7 +97,7 @@
     </section>
     <section class="skillset">
       <div class="skillset__text">
-        <h3 class="skillset__subtitle">Skillset</h3>
+        <h3 class="skillset__subtitle section__subtitle">Skillset</h3>
         <p class="skillset__description">With skills in over 4 different fields of design, I am the perfect person to
           hire when it comes to a full fledged project. Whatever your needs are, I can pretty much take on any
           challenge.</p>
@@ -150,10 +152,10 @@
       </ul>
     </section>
     <section class="project">
-      <div class="column">
+      <div class="section__column">
         <div class="project__text">
           <h2 class="project__title">My projects</h2>
-          <h3 class="project__subtitle subtitle">Work that I’ve done for the past 8 years</h3>
+          <h3 class="project__subtitle section__subtitle">Work that I’ve done for the past 8 years</h3>
         </div>
         <article class="project__article article">
           <img src="./images/project1.png" alt="Restaurant" class="article__photo">
@@ -180,7 +182,7 @@
           </div>
         </article>
       </div>
-      <div class="column">
+      <div class="section__column">
         <article class="project__article article">
           <img src="./images/project3.png" alt="Restaurant" class="article__photo">
           <div class="article__text">
@@ -205,13 +207,12 @@
             </p>
           </div>
         </article>
-
         <button class="article__button button" type="button">View all projects</button>
       </div>
     </section>
     <section class="insta__unit unit">
       <div class="unit__text">
-        <h3 class="unit__subtitle subtitle">Instagram</h3>
+        <h3 class="unit__subtitle section__subtitle">Instagram</h3>
         <p class="unit__description">If you area a person who enjoys photography, then I highly recommend that you
           check out my Instagram. I’m an avid traveller and I capture the best moments that I would love to cherish with
           the world</p>
@@ -219,9 +220,9 @@
       </div>
       <img src="./images/insta.jpg" alt="Instagram" class="unit__image">
     </section>
-    <section class="dribbble__panel panel">
+    <section class="dribbble panel">
       <div class="panel__text">
-        <h3 class="panel__subtitle subtitle">Dribbble</h3>
+        <h3 class="panel__subtitle section__subtitle">Dribbble</h3>
         <p class="panel__description">Each dribbble shot is made with love and care. Do check out my work on Dribbble.
           Likes and comments are appreciated.</p>
         <a href="" class="panel__link">Follow me on Dribbble</a>
@@ -230,14 +231,14 @@
         <img src="/images/dribbble.jpg" alt="Dribbble">
       </div>
     </section>
-    <section class="response__panel panel">
+    <section class="response panel">
       <div class="panel__text">
-        <h3 class="panel__subtitle subtitle">This is what people say about me</h3>
+        <h3 class="panel__subtitle section__subtitle">This is what people say about me</h3>
         <p class="panel__description">Here are a few lines from people who I have worked with over the past 8+ years in
           my design career.</p>
         <a href="" class="panel__link">See all testimonials</a>
       </div>
-      <ul class="respone__list">
+      <ul class="response__list">
         <li class="response__item">
           <img src="/images/peoplesay1.jpg" alt="" class="response__image">
           <div class="response__text">
@@ -273,7 +274,7 @@
     </section>
     <section class="gallery">
       <div class="gallery__text">
-        <h3 class="gallery__subtitle">Photography</h3>
+        <h3 class="gallery__subtitle section__subtitle">Photography</h3>
         <p class="gallery__description">Here is a collection of my best travel pictures that I took while travelling places all around the world. </p>
       </div>
       <form class="gallery__form">
@@ -296,10 +297,10 @@
       </form>
       <div class="gallery__photo">
         <div class="gallery__italy">        
-          <img src="/images/trip1.jpg" alt="" class="gallery__image" data-type="italy">
-          <img src="/images/trip2.jpg" alt="" class="gallery__image" data-type="australia">
-          <img src="/images/trip3.jpg" alt="" class="gallery__image" data-type="india">
-          <img src="/images/trip4.jpg" alt="" class="gallery__image" data-type="brazil"></div>
+          <img src="/images/italy1.jpg" alt="" class="gallery__image" data-type="italy">
+          <img src="/images/italy2.jpg" alt="" class="gallery__image" data-type="australia">
+          <img src="/images/italy3.jpg" alt="" class="gallery__image" data-type="india">
+          <img src="/images/italy4.jpg" alt="" class="gallery__image" data-type="brazil"></div>
 
         <img src="" alt="" class="gallery__image" data-type="australia">
         <img src="" alt="" class="gallery__image" data-type="australia">
@@ -307,6 +308,26 @@
         <img src="" alt="" class="gallery__image" data-type="australia">
       </div>
     </section>
+    <section class="contact">
+      <div class="contact__text">
+        <h3 class="contact__subtitle section__subtitle">Let’s get started</h3>
+        <p class="contact__description">Now that you know a lot about me, let me know if you are interested to work with me.</p>
+      </div>
+      <form class="contact__form form" autocomplete="off">
+        <label for="name" class="form__label">Name</label>
+        <input type="text" placeholder="" id="name" class="form__input"/>
+        <label for="email" class="form__label">Email</label>
+        <input type="email" placeholder="" id="email" class="form__input"/>
+        <label for="message" class="form__label">Message</label>
+        <textarea class="form__message"id="message" rows="3"></textarea>
+        <button class="form__button" type="submit">Let’s get started</button>
+        </form>
+      </form>
+    
+    </section>
   </main>
+
+
+
 </body>
 </html>

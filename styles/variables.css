@@ -1,0 +1,19 @@
+:root {
+  /* Название переменной должно начинаться с -- */
+  --main-font: 'Sen';
+  --section-padding: 120px 72px;
+  --panel-padding: 120px 182px;
+  /*--internal-padding: 40px 20px;*/
+  --subtitle-font-size: 55px;
+  --primary-color: #5221e6;
+  --grey-color: #181823;
+  --grey-light-color: #8491a0;
+  --grey-dark-color: #5b6876;
+  --title-color: #fff;
+  --bg-color: #000;
+  --accent-green: #3cc74e;
+  --accent-pink: #e95d90;
+  --accent-peach: #fff3e4;
+  --accent-violet: #fbe4ff;
+  --accent-blue: #609bff;
+}
